@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    height: 200px;
+    margin: 30px auto;
+}
+.slick-slide {
+    height: 200px;
+}
+.slick-prev {
+    left: -44px;
+}
+.slick-next {
+    right: -44px;
+}
+.slick-arrow {
+    width: 3%;
+    height: auto;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: red;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 60px auto;
+    border-radius: 50%;
+    background: grey;
+    position: relative;
+}
+.pulse {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity : 0.5;
+}
+#pulse1 {
+    border: 3px solid red;
+}
+#pulse2 {
+    border: 3px solid blue;
+}
+#pulse3 {
+    border: 3px solid yellow;
+}
